@@ -2,7 +2,6 @@ import Image from 'next/image';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from 'react-icons/hi';
 
-
 export default function Footer() {
     return (
         <footer className="bg-[#333333] text-white shadow-[0_-4px_10px_rgba(0,0,0,0.1)] dark:shadow-black">
@@ -12,7 +11,7 @@ export default function Footer() {
                         <div className="flex items-center">
                             <Image
                                 src="/img/logo_negro.png"
-                                alt="Logo EcoSwap"
+                                alt="EcoSwap Logo"
                                 width={50}
                                 height={40}
                                 className="mr-2"
@@ -20,14 +19,12 @@ export default function Footer() {
                             <h5 className="text-lg font-bold">EcoSwap</h5>
                         </div>
                         <p className="mt-4">
-                            En EcoSwap, creemos en un mundo donde la sostenibilidad y la comunidad van de la mano. Nuestra plataforma proporciona un espacio en línea para que las personas intercambien artículos de manera fácil, segura y respetuosa con el medio ambiente.
+                            At EcoSwap, we believe in a world where sustainability and community go hand in hand. Our platform provides an online space for people to easily, securely, and environmentally-friendly exchange items.
                         </p>
                     </div>
 
-                
-
                     <div className="flex flex-col md:w-1/4">
-                        <h5 className="text-lg font-bold mb-4">Contacto</h5>
+                        <h5 className="text-lg font-bold mb-4">Contact</h5>
                         <ul className="space-y-2">
                             <li>
                                 <span>📞</span> (304) 369-8299
